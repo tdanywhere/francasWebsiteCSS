@@ -1,4 +1,6 @@
-
+/*
+ * Image layout.
+ */
 img {
 	border: 0px solid #ddd;
 	border-radius: 0px;
@@ -6,6 +8,9 @@ img {
 	width: 80px;
   }
   
+/*
+ * Body grid layout.
+ */
 body {
 	margin: 10px auto;
 	max-width: 60em;
@@ -37,12 +42,12 @@ header-int01 {
 }
 
 header-int02 {
+	grid-column: 2 / 6;
 	padding: 2px;
 	font-family: sans-serif;
 	font-weight: bold;
-	color: #b62222;
+	color: #f791b2;
 	font-size: 3em;
-	grid-column: 2 / 6;
 }
 
 footer {
@@ -63,18 +68,13 @@ footer {
 }
 
 header {
-	background: #ffffff;
-	border-color: #d5d5d5;
+	background: #cdced6;
+	border: 0px;
 }
 
 nav {
 	background: #fffbf0;
 	border-color: #e7c157;
-}
-
-section {
-	background: #F1F3F4;
-	border-color: slateblue;
 }
 
 main {
