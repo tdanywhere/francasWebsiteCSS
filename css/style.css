@@ -1,3 +1,11 @@
+
+img {
+	border: 0px solid #ddd;
+	border-radius: 0px;
+	padding: 35px;
+	width: 80px;
+  }
+  
 body {
 	margin: 10px auto;
 	max-width: 60em;
@@ -18,7 +26,26 @@ body {
 	}
 }
 
-header,footer {
+header {
+	display: grid;
+	gap: 0.5em;
+	grid-column: 1 / -1;
+}
+
+header-int01 {
+	grid-column: 1 / 2;
+}
+
+header-int02 {
+	padding: 2px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #b62222;
+	font-size: 3em;
+	grid-column: 2 / 6;
+}
+
+footer {
 	grid-column: 1 / -1;
 }
 
@@ -36,7 +63,7 @@ footer {
 }
 
 header {
-	background: #F1F3F4;
+	background: #ffffff;
 	border-color: #d5d5d5;
 }
 
