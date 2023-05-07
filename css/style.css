@@ -7,7 +7,14 @@ img {
 	padding: 35px;
 	width: 80px;
   }
-  
+
+/*
+ * Hover effect via pseudo class a.
+ */a:hover {
+	background-color: blue;
+	color: white;
+}
+
 /*
  * Body grid layout.
  */
