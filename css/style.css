@@ -1,17 +1,33 @@
 /*
- * Image layout.
+ * Images layout.
  */
-img {
+ img {
 	border: 0px solid #ddd;
 	border-radius: 0px;
 	padding: 35px;
 	width: 80px;
   }
- 
+
+  .bild01 img { 
+	width: 200px;
+  }
+   
+  .bild02 img { 
+	width: 180px;
+  }
+
+  .bild03 img { 
+	width: 180px;
+  }
+
+  .bild04 img { 
+	width: 180px;
+  }
+
   /* Add a black background color to the top navigation bar */
 .topnav {
 	overflow: hidden;
-	background-color: #ffffff;
+	background-color: #cdced6;
   }
   
   /* Style the links inside the navigation bar */
