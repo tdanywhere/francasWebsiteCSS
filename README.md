@@ -1,3 +1,2 @@
 # francasWebsiteCSS
-Franca's first Website
-[link:](https://tdanywhere.github.io/francasWebsiteCSS/index.html)
+[Franca's first Website](https://tdanywhere.github.io/francasWebsiteCSS/index.html)
